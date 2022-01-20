@@ -1,0 +1,25 @@
+Package: mhdm
+Type: Package
+Title: Medical History Data Mining
+Version: 0.1
+Date: 2022-01-18
+Authors@R: c(person("Harry", "Southworth", role=c("aut", "cre"),
+                    email="harry.southworth@gmail.com"))
+Author: Harry Southworth [aut, cre],
+  All XGBoost authors.
+Maintainer: Harry Southworth <harry.southworth@gmail.com>
+Description: An alternative R frontend to XGBoost, intended to improve some
+  aspects of the documentation, and make the terminology more friendly to
+  statisticians. Also included are functions for restructuring typical
+  medical history (or AE) data, searching for synonyms, and computing
+  relative risks and confidence intervals.
+License: GPL (>=2)
+Depends:
+    ggplot2,
+    dplyr,
+    xgboost
+LazyLoad: yes
+LazyData: yes
+URL: https://github.com/harrysouthworth/mhdm
+RoxygenNote: 7.1.2
+Encoding: UTF-8
