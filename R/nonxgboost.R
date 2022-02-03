@@ -1,4 +1,4 @@
-#' Extract a wide form of the adverse event, conmeds, or other dataset
+#' Extract a wide form of the adverse event, medical history, conmeds, or other dataset
 #' @export
 #' @param data The adverse event dataset
 #' @param dm The demography dataset
