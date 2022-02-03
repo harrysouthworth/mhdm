@@ -2,7 +2,7 @@
 % Please edit documentation in R/nonxgboost.R
 \name{wideData}
 \alias{wideData}
-\title{Extract a wide form of the adverse event, conmeds, or other dataset}
+\title{Extract a wide form of the adverse event, medical history, conmeds, or other dataset}
 \usage{
 wideData(
   data,
@@ -33,5 +33,5 @@ wideData(
 \item{drop}{Drop columns in which fewer than \code{drop} of cases are 1. Defaults to \code{drop=0}}
 }
 \description{
-Extract a wide form of the adverse event, conmeds, or other dataset
+Extract a wide form of the adverse event, medical history, conmeds, or other dataset
 }

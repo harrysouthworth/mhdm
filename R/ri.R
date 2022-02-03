@@ -7,8 +7,8 @@
 #'   documentation), but isn't when there are factors in the model. So here
 #'   we add the values associated with factors back together. Finally,
 #'   the documentation for \code{xgb.importance} (for which this is a
-#'   wrapper) states that you need to give in an integer vector of tree numbers
-#'   indexed at 0 (ffs). This function takes care of it all by assuming you
+#'   wrapper) states that you need to give it an integer vector of tree numbers
+#'   indexed at 0. This function takes care of it all by assuming you
 #'   used cross-validation.
 #'
 #' @export
